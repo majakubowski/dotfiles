@@ -110,7 +110,7 @@ DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
 export HISTFILE=/dc/shellhistory/.zsh_history
 export PROMPT_COMMAND='history -a'
-sudo chown -R root /dc/shellhistory
+#sudo chown -R root /dc/shellhistory
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
